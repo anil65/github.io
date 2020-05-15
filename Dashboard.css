@@ -1,0 +1,66 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+body
+{
+	margin:0;
+	padding: 0;
+	background-image: url("adminlogo1.png");
+	width:100%;
+	background-repeat: no-repeat;
+	text-align: center;
+	position: relative;
+}
+a
+{
+	text-decoration: none;
+	color:red;
+	cursor: pointer;
+}
+.rec1
+{
+	width:250px;
+	height:200px;
+	margin:0% 0% 0% 45%;
+	padding-top: 55px;
+	border-radius: 50%;
+	background-color: #DB7093;
+	color:#DC143C;
+	font-family: sans-serif;
+}
+.rec2
+{
+	width:250px;
+	height:200px;
+	margin:0% 0% 0% 39%;
+	padding-top: 50px;
+	border-radius: 50%;
+	background-color: #A52A2A;
+	color:#DC143C;
+	font-family: sans-serif;
+	transform: translate(-50%,-50%);
+}
+.rec3
+{
+	width:250px;
+	height:200px;
+	margin:0% 0% 0% 66%;
+	padding-top: 50px;
+	border-radius: 50%;
+	background-color: #4682B4;
+	color:#DC143C;
+	font-family: sans-serif;
+	transform: translate(-105%,-105%);
+	display: block;
+}
+.rec4
+{
+	width:250px;
+	height:200px;
+	margin:0% 0% 0% 90%;
+	padding-top: 50px;
+	border-radius: 50%;
+	background-color: #113f77;
+	color:#DC143C;
+	font-family: sans-serif;
+	transform: translate(-150%,-255%);
+}

@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up</title>
+	<link rel="stylesheet" type="text/css" href="SignUp.css">
+</head>
+<body>
+   <div class="form-wrap">
+   	<h1>Sign Up</h1>
+   	<form action="SignUp.php" method="post">
+    <input type="text" placeholder="Name" name="Name" required><br>
+    <input type="text" placeholder="Email"  name="Email" required><br>
+    <input type="password" id ="password01" placeholder="Password" name="Password" required>
+    <br>
+    <input type="password" id = "confirm02" placeholder="Confirm Password" name="Confirm"><br>
+    <input type="text" placeholder="Enter your Branch" name="Branch" required><br>
+    <input type="text" placeholder="Enter your sports name" name="sport" required><br>
+    <input type="submit" name ="submit" onclick="ValidatePassword();" value="Sign Up">
+</form>
+   </div>
+</body>
+</html>
